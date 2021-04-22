@@ -1,4 +1,4 @@
-"Mark43 Poker" Judger
+"Poker" Judger
 =====================
 
 Your task is to implement a program that accepts as its input a collection of hands of cards, and selects the winner from among those hands.
@@ -114,22 +114,3 @@ python file called `poker.py` then you might run `./run_tests "python poker.py"`
 If you get errors running the tests, it's possible you have python 3 instead of python 2. In that case, use the
 `run_tests3` script instead.
 
-Feel free to reach out to us if you have any other problems using the test runner.
-
-What to submit
---------------
-
-Your submission should be a zip file containing the following
-
-* the source code of your program
-* a plain text file titled `README` containing
-    * instructions for compiling and/or running your submission
-    * any notes about design decisions and/or known bugs or limitations in your submission.
-
-Be very explicit in the `README` about how to compile and run your submission. Your program should be able to
-run all of the included tests using the `run_tests` script included. It is what we will use to grade your test, so if it doesn't run with `run_tests`, then it won't run for us.
-
-Please **DO NOT** include your name in any part of your submission, as we use a blind grading process.
-
-If your test requires compilation prior to being run, make sure to include instructions on how to do so.
-A Makefile is not required, but would be appreciated if the compilation is a multi-step process.
